@@ -1,2 +1,193 @@
-<!doctype html><html lang=en data-bs-theme=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=preload href=/fonts/vendor/jost/jost-v4-latin-regular.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/vendor/jost/jost-v4-latin-500.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/vendor/jost/jost-v4-latin-700.woff2 as=font type=font/woff2 crossorigin><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel=stylesheet><script src=/js/color-mode.86a91f050a481d0a3f0c72ac26543cb6228c770875981c58dcbc008fd3f875c8.js integrity="sha256-hqkfBQpIHQo/DHKsJlQ8tiKMdwh1mBxY3LwAj9P4dcg="></script><link rel=stylesheet href=/main.cd9f0d7cd757d4fc1800928015c2b6bc169b98d0fe18201eb7d0f762898be2edfa53e9771ff453ef244c3bf7b554833d07be26ac3f4c5b49dab78f9af973df0a.css integrity="sha512-zZ8NfNdX1PwYAJKAFcK2vBabmND+GCAet9D3YomL4u36U+l3H/RT7yRMO/e1VIM9B74mrD9MW0nat4+a+XPfCg==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><link rel=canonical href=/docs/><link rel=alternate type=application/rss+xml href=/docs/index.xml><link rel=sitemap type=application/xml href=/docs/sitemap.xml><title>Docs | My Docs</title>
-<meta name=description content="Congrats on setting up a new Doks project!"><link rel=icon href=/favicon-16x16.png sizes=16x16 type=image/png><link rel=icon href=/favicon-32x32.png sizes=32x32 type=image/png><link rel=icon href=/favicon-150x150.png sizes=150x150 type=image/png><link rel=apple-touch-icon href=/apple-touch-icon.png sizes=180x180 type=image/png><link rel=icon href=/favicon-192x192.png sizes=192x192 type=image/png><link rel=icon href=/favicon-512x512.png sizes=512x512 type=image/png><link rel=icon href=/favicon.svg><link rel=mask-icon href=/mask-icon.svg color=white><meta property="og:title" content="Docs"><meta property="og:description" content="Congrats on setting up a new Doks project!"><meta property="og:type" content="website"><meta property="og:url" content="/docs/"><meta property="og:image" content="/cover.png"><meta property="og:site_name" content="My Docs"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="/cover.png"><meta name=twitter:title content="Docs"><meta name=twitter:description content="Congrats on setting up a new Doks project!"><meta name=twitter:site content="@getdoks"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"/","name":"Luminary","position":1},{"@type":"ListItem","name":"Docs","position":2}]}</script></head><body class="list section docs" data-bs-spy=scroll data-bs-target=#toc data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll=true tabindex=0><div class="wrap container-fluid" role=document><div class=content><div class="container-xxl p-0"><div class="row justify-content-center"><div class="col-md-12 col-lg-10 col-xl-8"><article><h1 class=text-center>Docs</h1><div class=card-list><div class="card my-3"><div class=card-body><a class=stretched-link href=/docs/guides/example-guide/>Example Guide &rarr;</a></div></div><div class="card my-3"><div class=card-body><a class=stretched-link href=/docs/reference/example-reference/>Example Reference &rarr;</a></div></div></div></article></div></div></div></div></div><script async src=/js/app.47b84f3b640408af6efe7bf4add1a36f5b9c6227fbae7b8bcdf0c9ce42fefc54.js integrity="sha256-R7hPO2QECK9u/nv0rdGjb1ucYif7rnuLzfDJzkL+/FQ="></script><script src=https://unpkg.com/aos@2.3.1/dist/aos.js></script><script>AOS.init({offset:0})</script><script async src=/js/flexsearch.b6f80717bc68cd38b6ded7a061f96a73896db6be17a6582f09a63a6040040919.js integrity="sha256-tvgHF7xozTi23tegYflqc4lttr4XplgvCaY6YEAECRk="></script><script async src=/js/search-modal.4e30271fef6fac86c3b4143167e9784bd3f7037ce1045d03a321e7e799e91476.js integrity="sha256-TjAnH+9vrIbDtBQxZ+l4S9P3A3zhBF0DoyHn55npFHY="></script><link href=https://unpkg.com/aos@2.3.1/dist/aos.css rel=stylesheet></body></html>
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet"><script 
+  src="/js/color-mode.f4dceae2c5e850920845103cfc5862a5802325e420be465f686a3a86369b9226.js"
+  integrity="sha256-9Nzq4sXoUJIIRRA8/FhipYAjJeQgvkZfaGo6hjabkiY=">
+</script>
+
+
+<link rel="stylesheet" href="/main.7371e9f51f228b6b31942025f3c3ed103e165cae42e4ad13791cfea823d68415cbba7efe5c000c957d4cae60f1773874b9ada0da40b1e880f6e13902c84f234d.css" integrity="sha512-c3Hp9R8ii2sxlCAl88PtED4WXK5C5K0TeRz&#43;qCPWhBXLun7&#43;XAAMlX1MrmDxdzh0ua2g2kCx6ID24TkCyE8jTQ==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <link rel="canonical" href="http://localhost:1313/docs/">
+
+  <link
+    rel="alternate"
+    type="application/rss&#43;xml"
+    href="http://localhost:1313/docs/index.xml"
+  >
+  <link
+    rel="sitemap"
+    type="application/xml"
+    href="http://localhost:1313/docs/sitemap.xml"
+  >
+<title>Docs | My Docs</title>
+  
+<meta name="description" content="Congrats on setting up a new Doks project!">
+
+
+        <link
+            rel="icon"
+            href="/favicon-16x16.png"
+            sizes="16x16"
+            type="image/png"
+        >
+        <link
+            rel="icon"
+            href="/favicon-32x32.png"
+            sizes="32x32"
+            type="image/png"
+        >
+        <link
+            rel="icon"
+            href="/favicon-150x150.png"
+            sizes="150x150"
+            type="image/png"
+        >
+        <link
+            rel="apple-touch-icon"
+            href="/apple-touch-icon.png"
+            sizes="180x180"
+            type="image/png"
+        >
+        <link
+            rel="icon"
+            href="/favicon-192x192.png"
+            sizes="192x192"
+            type="image/png"
+        >
+        <link
+            rel="icon"
+            href="/favicon-512x512.png"
+            sizes="512x512"
+            type="image/png"
+        >
+
+
+<link rel="icon" href="/favicon.svg">
+
+
+
+<link
+    rel="mask-icon"
+    href="/mask-icon.svg"
+    color="white"
+>
+
+
+
+<meta property="og:title" content="Docs" />
+<meta property="og:description" content="Congrats on setting up a new Doks project!" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/docs/" /><meta property="og:image" content="http://localhost:1313/cover.png" /><meta property="og:site_name" content="My Docs" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/cover.png" /><meta name="twitter:title" content="Docs"/>
+<meta name="twitter:description" content="Congrats on setting up a new Doks project!"/>
+<meta name="twitter:site" content="@getdoks"/>
+
+    <script type="application/ld+json">{
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "Luminary",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "name": "Docs",
+       "position": 2
+     }
+   ]
+ }</script>
+
+
+
+
+
+
+
+
+
+</head>
+
+  
+  <body class="list section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+    
+    <div class="wrap container-fluid" role="document">
+      <div class="content">
+      <div class="container-xxl p-0">
+        
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10 col-xl-8">
+    <article>
+      <h1 class="text-center">Docs</h1>
+      
+			<div class="card-list">
+				
+				
+					
+						<div class="card my-3">
+							<div class="card-body">
+								<a class="stretched-link" href="/docs/guides/example-guide/">Example Guide &rarr;</a>
+							</div>
+						</div>
+					
+				
+					
+						<div class="card my-3">
+							<div class="card-body">
+								<a class="stretched-link" href="/docs/reference/example-reference/">Example Reference &rarr;</a>
+							</div>
+						</div>
+					
+				
+			</div>
+    </article>
+  </div>
+</div>
+
+      </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+<script async
+  src="/js/app.17ab9b1d9bc36b7f839c916d94b04f3e59959d11e35ad6f73b6ef9190cf52b55.js"
+  integrity="sha256-F6ubHZvDa3&#43;DnJFtlLBPPlmVnRHjWtb3O275GQz1K1U=">
+</script>
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0,});
+</script>
+<script async
+  src="/js/flexsearch.a43ad3e9453067320ab808b85ef437fc65518a219cfea8499e744b7b6f0b6924.js"
+  integrity="sha256-pDrT6UUwZzIKuAi4XvQ3/GVRiiGc/qhJnnRLe28LaSQ=">
+</script>
+<script async
+  src="/js/search-modal.4bf222a8ac69d50bbdf265c8d3e25dd4693382bf59af91cbfe3268b8aa8079eb.js"
+  integrity="sha256-S/IiqKxp1Qu98mXI0&#43;Jd1Gkzgr9Zr5HL/jJouKqAees=">
+</script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    
+  </body>
+</html>
